@@ -1,0 +1,42 @@
+body {
+  background-color: #111;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+a {
+  display: inline-block;
+  border-color: #fff;
+  background-color: #eee;
+  padding: 20px;
+  width: 300px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  color: #333;
+}
+
+div {
+  width: 100vw;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+img{
+  cursor:pointer;
+  width: 105px;
+  height: 140px;
+  border-radius: 7%;
+  background-size: cover;
+  border: 2px solid #333;
+  transition: all 2ms linear;
+  margin: 2px;
+}
